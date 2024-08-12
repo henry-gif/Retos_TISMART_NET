@@ -1,0 +1,68 @@
+﻿@model IEnumerable<SalesMVC.Models.Order>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Ordenes</h1>
+
+<p>
+    <a asp-action="Create" class="btn btn-success">Crear Orden</a>
+</p>
+<br />
+<form asp-controller="categoria" asp-action="Index" method="get">
+    <p>
+        Buscar por apellido:<input type="text" name="buscar" class="form-text" />
+        <input type="submit" value="Buscar" class="btn btn-sm btn-dark" />
+    </p>
+
+</form>
+<br />
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.OrderId)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.OrderD)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CustomerFkNavigation.CustomerId)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CustomerFkNavigation.FirstName)
+            </th>
+          <th>
+                @Html.DisplayNameFor(model=> model.CustomerFkNavigation.LastName)
+          </th>
+            <th>Acciones</th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.OrderId)
+                </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.OrderD)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CustomerFkNavigation.CustomerId)
+            </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.CustomerFkNavigation.FirstName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.CustomerFkNavigation.LastName)
+                </td>
+            <td>
+                    <a asp-action="Edit" asp-route-id="@item.OrderId" class="btn btn-primary">Editar</a> |
+                    <a asp-action="Details" asp-route-id="@item.OrderId" class="btn btn-info">Ver detalles</a> |
+                    <a asp-action="Delete" asp-route-id="@item.OrderId" class="btn btn-danger">Eliminar</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

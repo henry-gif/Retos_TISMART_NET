@@ -1,0 +1,66 @@
+﻿@model IEnumerable<SalesMVC.Models.Product>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Productos</h1>
+
+<p>
+    <a asp-action="Create" class="btn btn-success" >Crear producto</a>
+</p>
+<br />
+<form asp-controller="productos" asp-action="Index" method="get">
+    <p>
+        Buscar por nombre:<input type="text" name="buscar" class="form-text" />
+        <input type="submit" value="Buscar" class="btn btn-sm btn-dark" />
+    </p>
+
+</form>
+<br />
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                <a asp-action="Index" asp-route-filtro="@ViewData["filtroNombre"]">
+                    @Html.DisplayNameFor(model => model.ProductName)
+                </a>
+            </th>
+            <th>
+                <a asp-action="Index" asp-route-filtro="@ViewData["FiltroPrice"]">
+                    @Html.DisplayNameFor(model => model.Price)
+                </a>
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CategoryIdfkNavigation.CategoryId)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CategoryIdfkNavigation.CategoryDescription)
+            </th>
+            <th>Acciones</th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.ProductName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Price)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CategoryIdfkNavigation.CategoryId)
+            </td>
+            <td>
+                    @Html.DisplayFor(modelItem => item.CategoryIdfkNavigation.CategoryDescription)
+            </td>
+            <td>
+                    <a asp-action="Edit" asp-route-id="@item.ProductId" class="btn btn-primary" >Editar</a> |
+                    <a asp-action="Details" asp-route-id="@item.ProductId" class="btn btn-info">Ver detalles</a> |
+                    <a asp-action="Delete" asp-route-id="@item.ProductId" class="btn btn-danger">Eliminar</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

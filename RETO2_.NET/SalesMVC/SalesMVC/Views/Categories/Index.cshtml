@@ -1,0 +1,54 @@
+﻿@model IEnumerable<SalesMVC.Models.Category>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Categorias</h1>
+
+<p>
+    <a asp-action="Create" class="btn btn-success">Crear Categoria</a>
+</p>
+<br />
+<form asp-controller="categoria" asp-action="Index" method="get">
+    <p>
+        Buscar por apellido:<input type="text" name="buscar" class="form-text" />
+        <input type="submit" value="Buscar" class="btn btn-sm btn-dark" />
+    </p>
+
+</form>
+<br />
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+               
+                @Html.DisplayNameFor(model => model.CategoryId)
+                </a>
+            </th>
+            <th>
+                <a asp-action="Index" asp-route-filtro="@ViewData["filtroDescripcion"]">
+                @Html.DisplayNameFor(model => model.CategoryDescription)
+                </a>
+            </th>
+            <th>Acciones</th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelitem=> item.CategoryId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CategoryDescription)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.CategoryId" class="btn btn-primary" >Editar</a> |
+                <a asp-action="Details" asp-route-id="@item.CategoryId" class="btn btn-info">Ver detalles</a> |
+                    <a asp-action="Delete" asp-route-id="@item.CategoryId" class="btn btn-danger">Eliminar</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

@@ -1,0 +1,31 @@
+﻿@model SalesMVC.Models.Category
+
+@{
+    ViewData["Title"] = "Delete";
+}
+
+<h1>Eliminar</h1>
+
+<h3>Esta seguro que desea eliminar:</h3>
+<div>
+    <h4>Categoria</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.CategoryDescription)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.CategoryDescription)
+        </dd>
+    </dl>
+    
+    <form asp-action="Delete">
+        <br />
+        <input type="hidden" asp-for="CategoryId" />
+        <br />
+        <input type="submit" value="Eliminar" class="btn btn-danger" /> 
+        <br />
+        <a asp-action="Index" class="btn btn-outline-danger">Regresar</a>
+
+    </form>
+</div>

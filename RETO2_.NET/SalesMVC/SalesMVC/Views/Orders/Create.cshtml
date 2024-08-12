@@ -1,0 +1,37 @@
+﻿@model SalesMVC.Models.Order
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Crear</h1>
+
+<h4>Orden</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="CustomerFk" class="control-label"></label>
+                <select asp-for="CustomerFk" class ="form-control" asp-items="ViewBag.CustomerFk"></select>
+            </div>
+            <div class="form-group">
+                <label asp-for="OrderD" class="control-label"></label>
+                <input asp-for="OrderD" class="form-control" />
+                <span asp-validation-for="OrderD" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Registrar" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index" class="btn btn-outline-danger">Regresar</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
