@@ -24,11 +24,14 @@ namespace SalesMVC.Controllers
 
             var productos = _context.Products.Include(p => p.CategoryIdfkNavigation).AsQueryable();
 
-            // Hacer una busqueda
+           
             if (!string.IsNullOrEmpty(buscar))
             {
-                productos = productos.Where(p => p.ProductName.Contains(buscar) ||
-                                                 p.CategoryIdfkNavigation.CategoryDescription.Contains(buscar));
+                buscar = buscar.ToLower(); 
+
+                productos = productos.Where(p => p.ProductName.ToLower().Contains(buscar) ||
+                                                  p.CategoryIdfkNavigation.CategoryDescription.ToLower().Contains(buscar) ||
+                                                  p.Price.ToString().Contains(buscar));
             }
 
             // Aplicar filtro para cada campo
@@ -118,12 +121,12 @@ namespace SalesMVC.Controllers
             {
                 return NotFound();
             }
-            ViewData["CategoryIdfk"] = new SelectList(_context.Categories, "CategoryId", "CategoryId", product.CategoryIdfk);
+            // Cargar CategoryDescription en lugar de CategoryId en el dropdown
+            ViewData["CategoryIdfk"] = new SelectList(_context.Categories, "CategoryId", "CategoryDescription", product.CategoryIdfk);
             return View(product);
         }
 
         // POST: Products/Edit/5
-       
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Edit(int id, [Bind("ProductId,ProductName,Price,CategoryIdfk")] Product product)
@@ -153,9 +156,11 @@ namespace SalesMVC.Controllers
                 }
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["CategoryIdfk"] = new SelectList(_context.Categories, "CategoryId", "CategoryId", product.CategoryIdfk);
+            // Volver a cargar las categorías si hay un error de validación
+            ViewData["CategoryIdfk"] = new SelectList(_context.Categories, "CategoryId", "CategoryDescription", product.CategoryIdfk);
             return View(product);
         }
+
 
         // GET: Products/Delete/5
         public async Task<IActionResult> Delete(int? id)

@@ -3,18 +3,6 @@
   "WorkspaceRootPath": "C:\\Users\\hloki\\source\\repos\\SalesMVC\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{590BB8A1-8841-49C9-8B81-35A76B42C53B}|SalesMVC\\SalesMVC.csproj|c:\\users\\hloki\\source\\repos\\salesmvc\\salesmvc\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{590BB8A1-8841-49C9-8B81-35A76B42C53B}|SalesMVC\\SalesMVC.csproj|solutionrelative:salesmvc\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{590BB8A1-8841-49C9-8B81-35A76B42C53B}|SalesMVC\\SalesMVC.csproj|c:\\users\\hloki\\source\\repos\\salesmvc\\salesmvc\\controllers\\customerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{590BB8A1-8841-49C9-8B81-35A76B42C53B}|SalesMVC\\SalesMVC.csproj|solutionrelative:salesmvc\\controllers\\customerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{590BB8A1-8841-49C9-8B81-35A76B42C53B}|SalesMVC\\SalesMVC.csproj|c:\\users\\hloki\\source\\repos\\salesmvc\\salesmvc\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{590BB8A1-8841-49C9-8B81-35A76B42C53B}|SalesMVC\\SalesMVC.csproj|solutionrelative:salesmvc\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{590BB8A1-8841-49C9-8B81-35A76B42C53B}|SalesMVC\\SalesMVC.csproj|c:\\users\\hloki\\source\\repos\\salesmvc\\salesmvc\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{590BB8A1-8841-49C9-8B81-35A76B42C53B}|SalesMVC\\SalesMVC.csproj|solutionrelative:salesmvc\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -27,28 +15,12 @@
       "RelativeMoniker": "D:0:0:{590BB8A1-8841-49C9-8B81-35A76B42C53B}|SalesMVC\\SalesMVC.csproj|solutionrelative:salesmvc\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{590BB8A1-8841-49C9-8B81-35A76B42C53B}|SalesMVC\\SalesMVC.csproj|c:\\users\\hloki\\source\\repos\\salesmvc\\salesmvc\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{590BB8A1-8841-49C9-8B81-35A76B42C53B}|SalesMVC\\SalesMVC.csproj|solutionrelative:salesmvc\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{590BB8A1-8841-49C9-8B81-35A76B42C53B}|SalesMVC\\SalesMVC.csproj|c:\\users\\hloki\\source\\repos\\salesmvc\\salesmvc\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{590BB8A1-8841-49C9-8B81-35A76B42C53B}|SalesMVC\\SalesMVC.csproj|solutionrelative:salesmvc\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{590BB8A1-8841-49C9-8B81-35A76B42C53B}|SalesMVC\\SalesMVC.csproj|c:\\users\\hloki\\source\\repos\\salesmvc\\salesmvc\\views\\products\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{590BB8A1-8841-49C9-8B81-35A76B42C53B}|SalesMVC\\SalesMVC.csproj|solutionrelative:salesmvc\\views\\products\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{590BB8A1-8841-49C9-8B81-35A76B42C53B}|SalesMVC\\SalesMVC.csproj|c:\\users\\hloki\\source\\repos\\salesmvc\\salesmvc\\models\\bdsalescontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{590BB8A1-8841-49C9-8B81-35A76B42C53B}|SalesMVC\\SalesMVC.csproj|solutionrelative:salesmvc\\models\\bdsalescontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{590BB8A1-8841-49C9-8B81-35A76B42C53B}|SalesMVC\\SalesMVC.csproj|c:\\users\\hloki\\source\\repos\\salesmvc\\salesmvc\\views\\categories\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{590BB8A1-8841-49C9-8B81-35A76B42C53B}|SalesMVC\\SalesMVC.csproj|solutionrelative:salesmvc\\views\\categories\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{590BB8A1-8841-49C9-8B81-35A76B42C53B}|SalesMVC\\SalesMVC.csproj|c:\\users\\hloki\\source\\repos\\salesmvc\\salesmvc\\views\\orders\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{590BB8A1-8841-49C9-8B81-35A76B42C53B}|SalesMVC\\SalesMVC.csproj|solutionrelative:salesmvc\\views\\orders\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{590BB8A1-8841-49C9-8B81-35A76B42C53B}|SalesMVC\\SalesMVC.csproj|c:\\users\\hloki\\source\\repos\\salesmvc\\salesmvc\\views\\customers\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{590BB8A1-8841-49C9-8B81-35A76B42C53B}|SalesMVC\\SalesMVC.csproj|solutionrelative:salesmvc\\views\\customers\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{590BB8A1-8841-49C9-8B81-35A76B42C53B}|SalesMVC\\SalesMVC.csproj|c:\\users\\hloki\\source\\repos\\salesmvc\\salesmvc\\views\\orders\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{590BB8A1-8841-49C9-8B81-35A76B42C53B}|SalesMVC\\SalesMVC.csproj|solutionrelative:salesmvc\\views\\orders\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -57,164 +29,86 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 1508,
-          "SelectedChildIndex": 3,
+          "DockedWidth": 591,
+          "SelectedChildIndex": 1,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Customer.cs",
-              "DocumentMoniker": "C:\\Users\\hloki\\source\\repos\\SalesMVC\\SalesMVC\\Models\\Customer.cs",
-              "RelativeDocumentMoniker": "SalesMVC\\Models\\Customer.cs",
-              "ToolTip": "C:\\Users\\hloki\\source\\repos\\SalesMVC\\SalesMVC\\Models\\Customer.cs",
-              "RelativeToolTip": "SalesMVC\\Models\\Customer.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-12T00:33:59.099Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\hloki\\source\\repos\\SalesMVC\\SalesMVC\\Views\\Products\\Index.cshtml",
-              "RelativeDocumentMoniker": "SalesMVC\\Views\\Products\\Index.cshtml",
-              "ToolTip": "C:\\Users\\hloki\\source\\repos\\SalesMVC\\SalesMVC\\Views\\Products\\Index.cshtml",
-              "RelativeToolTip": "SalesMVC\\Views\\Products\\Index.cshtml",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAwAAAA9AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-11T22:19:12.6Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\hloki\\source\\repos\\SalesMVC\\SalesMVC\\Views\\Orders\\Index.cshtml",
-              "RelativeDocumentMoniker": "SalesMVC\\Views\\Orders\\Index.cshtml",
-              "ToolTip": "C:\\Users\\hloki\\source\\repos\\SalesMVC\\SalesMVC\\Views\\Orders\\Index.cshtml",
-              "RelativeToolTip": "SalesMVC\\Views\\Orders\\Index.cshtml",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAowBMAAAAGAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-11T22:18:50.162Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "CategoriesController.cs",
-              "DocumentMoniker": "C:\\Users\\hloki\\source\\repos\\SalesMVC\\SalesMVC\\Controllers\\CategoriesController.cs",
-              "RelativeDocumentMoniker": "SalesMVC\\Controllers\\CategoriesController.cs",
-              "ToolTip": "C:\\Users\\hloki\\source\\repos\\SalesMVC\\SalesMVC\\Controllers\\CategoriesController.cs",
-              "RelativeToolTip": "SalesMVC\\Controllers\\CategoriesController.cs",
-              "ViewState": "AQIAABkAAAAAAAAAAAAmwBQAAAAZAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-11T03:03:31.195Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Order.cs",
-              "DocumentMoniker": "C:\\Users\\hloki\\source\\repos\\SalesMVC\\SalesMVC\\Models\\Order.cs",
-              "RelativeDocumentMoniker": "SalesMVC\\Models\\Order.cs",
-              "ToolTip": "C:\\Users\\hloki\\source\\repos\\SalesMVC\\SalesMVC\\Models\\Order.cs",
-              "RelativeToolTip": "SalesMVC\\Models\\Order.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-12T00:34:04.274Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "OrdersController.cs",
-              "DocumentMoniker": "C:\\Users\\hloki\\source\\repos\\SalesMVC\\SalesMVC\\Controllers\\OrdersController.cs",
-              "RelativeDocumentMoniker": "SalesMVC\\Controllers\\OrdersController.cs",
-              "ToolTip": "C:\\Users\\hloki\\source\\repos\\SalesMVC\\SalesMVC\\Controllers\\OrdersController.cs",
-              "RelativeToolTip": "SalesMVC\\Controllers\\OrdersController.cs",
-              "ViewState": "AQIAAJUAAAAAAAAAAAAAwK4AAAAcAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-12T00:34:08.345Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\hloki\\source\\repos\\SalesMVC\\SalesMVC\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "SalesMVC\\Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\hloki\\source\\repos\\SalesMVC\\SalesMVC\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "SalesMVC\\Controllers\\HomeController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-12T00:38:38.699Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\hloki\\source\\repos\\SalesMVC\\SalesMVC\\Views\\Customers\\Index.cshtml",
-              "RelativeDocumentMoniker": "SalesMVC\\Views\\Customers\\Index.cshtml",
-              "ToolTip": "C:\\Users\\hloki\\source\\repos\\SalesMVC\\SalesMVC\\Views\\Customers\\Index.cshtml",
-              "RelativeToolTip": "SalesMVC\\Views\\Customers\\Index.cshtml",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAsAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-11T22:08:14.499Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\hloki\\source\\repos\\SalesMVC\\SalesMVC\\Views\\Categories\\Index.cshtml",
-              "RelativeDocumentMoniker": "SalesMVC\\Views\\Categories\\Index.cshtml",
-              "ToolTip": "C:\\Users\\hloki\\source\\repos\\SalesMVC\\SalesMVC\\Views\\Categories\\Index.cshtml",
-              "RelativeToolTip": "SalesMVC\\Views\\Categories\\Index.cshtml",
-              "ViewState": "AQIAABUAAAAAAAAAAAAowB0AAABYAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-11T22:07:56.957Z"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
-            }
-          ]
-        },
-        {
-          "DockedWidth": 155,
-          "SelectedChildIndex": 0,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "CustomersController.cs",
-              "DocumentMoniker": "C:\\Users\\hloki\\source\\repos\\SalesMVC\\SalesMVC\\Controllers\\CustomersController.cs",
-              "RelativeDocumentMoniker": "SalesMVC\\Controllers\\CustomersController.cs",
-              "ToolTip": "C:\\Users\\hloki\\source\\repos\\SalesMVC\\SalesMVC\\Controllers\\CustomersController.cs",
-              "RelativeToolTip": "SalesMVC\\Controllers\\CustomersController.cs",
-              "ViewState": "AQIAABgAAAAAAAAAAAAowCcAAABIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-12T00:25:54.988Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Document",
               "DocumentIndex": 4,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\hloki\\source\\repos\\SalesMVC\\SalesMVC\\Views\\Orders\\Details.cshtml",
+              "RelativeDocumentMoniker": "SalesMVC\\Views\\Orders\\Details.cshtml",
+              "ToolTip": "C:\\Users\\hloki\\source\\repos\\SalesMVC\\SalesMVC\\Views\\Orders\\Details.cshtml",
+              "RelativeToolTip": "SalesMVC\\Views\\Orders\\Details.cshtml",
+              "ViewState": "AQIAACEAAAAAAAAAAAAowCUAAABKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-12T14:08:21.805Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "ProductsController.cs",
               "DocumentMoniker": "C:\\Users\\hloki\\source\\repos\\SalesMVC\\SalesMVC\\Controllers\\ProductsController.cs",
               "RelativeDocumentMoniker": "SalesMVC\\Controllers\\ProductsController.cs",
               "ToolTip": "C:\\Users\\hloki\\source\\repos\\SalesMVC\\SalesMVC\\Controllers\\ProductsController.cs",
               "RelativeToolTip": "SalesMVC\\Controllers\\ProductsController.cs",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAUwEAAAAAhAAAA",
+              "ViewState": "AQIAABAAAAAAAAAAAAAgwBUAAAAvAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-11T22:19:46.345Z"
+              "WhenOpened": "2024-08-12T15:28:57.713Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "BDSALESContext.cs",
-              "DocumentMoniker": "C:\\Users\\hloki\\source\\repos\\SalesMVC\\SalesMVC\\Models\\BDSALESContext.cs",
-              "RelativeDocumentMoniker": "SalesMVC\\Models\\BDSALESContext.cs",
-              "ToolTip": "C:\\Users\\hloki\\source\\repos\\SalesMVC\\SalesMVC\\Models\\BDSALESContext.cs",
-              "RelativeToolTip": "SalesMVC\\Models\\BDSALESContext.cs",
-              "ViewState": "AQIAAJAAAAAAAAAAAAAkwAAAAAAAAAAA",
+              "DocumentIndex": 2,
+              "Title": "Order.cs",
+              "DocumentMoniker": "C:\\Users\\hloki\\source\\repos\\SalesMVC\\SalesMVC\\Models\\Order.cs",
+              "RelativeDocumentMoniker": "SalesMVC\\Models\\Order.cs",
+              "ToolTip": "C:\\Users\\hloki\\source\\repos\\SalesMVC\\SalesMVC\\Models\\Order.cs",
+              "RelativeToolTip": "SalesMVC\\Models\\Order.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-12T00:28:00.824Z"
+              "WhenOpened": "2024-08-12T15:27:45.489Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 1642,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "OrdersController.cs",
+              "DocumentMoniker": "C:\\Users\\hloki\\source\\repos\\SalesMVC\\SalesMVC\\Controllers\\OrdersController.cs",
+              "RelativeDocumentMoniker": "SalesMVC\\Controllers\\OrdersController.cs",
+              "ToolTip": "C:\\Users\\hloki\\source\\repos\\SalesMVC\\SalesMVC\\Controllers\\OrdersController.cs",
+              "RelativeToolTip": "SalesMVC\\Controllers\\OrdersController.cs",
+              "ViewState": "AQIAAFoAAAAAAAAAAAAswGIAAAA+AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-12T15:15:23.317Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 38,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CategoriesController.cs",
+              "DocumentMoniker": "C:\\Users\\hloki\\source\\repos\\SalesMVC\\SalesMVC\\Controllers\\CategoriesController.cs",
+              "RelativeDocumentMoniker": "SalesMVC\\Controllers\\CategoriesController.cs",
+              "ToolTip": "C:\\Users\\hloki\\source\\repos\\SalesMVC\\SalesMVC\\Controllers\\CategoriesController.cs",
+              "RelativeToolTip": "SalesMVC\\Controllers\\CategoriesController.cs",
+              "ViewState": "AQIAACEAAAAAAAAAAAAowBsAAABIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-12T15:16:04.774Z",
+              "EditorCaption": ""
             }
           ]
         }

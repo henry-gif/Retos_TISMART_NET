@@ -19,7 +19,7 @@ namespace SalesMVC.Controllers
         }
 
         // GET: Ordenes
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Index(String buscar,String filtro)
         {
             var bDSALESContext = _context.Orders.Include(o => o.CustomerFkNavigation);
             return View(await bDSALESContext.ToListAsync());

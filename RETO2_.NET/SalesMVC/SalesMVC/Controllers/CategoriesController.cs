@@ -21,12 +21,13 @@ namespace SalesMVC.Controllers
         // GET: Categorias
         public async Task<IActionResult> Index(String buscar,String filtro)
         {
-            var categorias = from category in _context.Categories select category;
-             if(!String.IsNullOrEmpty(buscar))
+            var categorias = from categoria in _context.Categories select categoria;
+
+            if (!String.IsNullOrEmpty(buscar))
             {
-                categorias = categorias.Where(cat =>cat.CategoryDescription!.Contains(buscar));
+                categorias = categorias.Where(c => c.CategoryDescription!.Contains(buscar));
             }
-             //establece el filtro en base a la descripcion
+            //establece el filtro en base a la descripcion
             ViewData["filtroDescripcion"] = String.IsNullOrEmpty(filtro) ? "DescripcionDescendente" : "";
             switch (filtro)
             {

@@ -24,7 +24,7 @@ namespace SalesMVC.Controllers
 
             if (!String.IsNullOrEmpty(buscar))
             {
-               clientes=clientes.Where(c=>c.LastName!.Contains(buscar));
+                clientes = clientes.Where(c => c.LastName!.Contains(buscar));
             }
             //aplicar filtros para nombre como apellidos
             ViewData["filtroNombre"] = String.IsNullOrEmpty(filtro) ? "NombreDescendente" :"";
